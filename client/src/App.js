@@ -1,14 +1,6 @@
 import React from "react";
-import Books from "./pages/Books";
-import Nav from "./components/Nav";
+import PageContainer from "./components/PageContainer";
 
-function App() {
-  return (
-    <div>
-      <Nav />
-      <Books />
-    </div>
-  );
-}
+const App = () => <PageContainer />;
 
 export default App;
